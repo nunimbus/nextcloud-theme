@@ -1,0 +1,86 @@
+#body-login {
+	background-image: url('../img/background.png');
+}
+.icon-confirm-white {
+	background-image: url('../img/confirm-white.svg?v=2') !important;
+}
+#kc-info, .pf-c-alert {
+/*    width: 260px;*/
+    margin: auto auto 20px;
+}
+#kc-info-wrapper {
+	padding: unset;
+	background-color: unset;
+}
+a, p, h1, h2, h3, h4, h5, h6, label {
+	color: #fff;
+	text-shadow: 0 0 2px rgb(0 0 0 / 40%);
+}
+a:hover {
+	color: #fff;
+}
+input[type=checkbox] {
+	-webkit-appearance: auto;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    min-height: auto;
+}
+.btn-lg {
+	width: 260px !important;
+}
+.button:not(:disabled):hover {
+	background-image: linear-gradient(40deg, #fff 0%, #ddd 100%);
+}
+body {
+	justify-content: unset;
+}
+fieldset {
+	min-width: revert;
+}
+#kc-register-form .grouptop, #kc-register-form .groupmiddle, #kc-register-form .groupbottom {
+	position: revert;
+}
+
+/* TOTP */
+#kc-totp-settings {
+	width: 320px;
+	margin: auto !important;
+	padding: unset !important;
+}
+#kc-totp-settings li p:first-of-type {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+#kc-totp-settings li p:last-of-type {
+	margin-bottom: 10px;
+}
+::marker {
+	color: transparent;
+}
+#kc-totp-settings-form input[type='submit'],
+#kc-totp-settings-form input[type='submit'].icon-confirm,
+#kc-totp-settings-form input[type='button'],
+#kc-totp-settings-form button,
+#kc-totp-settings-form a.button,
+#kc-totp-settings-form .button,
+#kc-totp-settings-form select {
+	display: block;
+	margin: 5px auto 25px;
+}
+#kc-totp-secret-key {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+}
+#kc-totp-settings ul{
+    background-color: #fff;
+    color: #333333;
+    display: block;
+    margin: auto;
+    width: 270px;
+	border-radius: 3px;
+}
+#kc-totp-secret-qr-code {
+	border-radius: 3px;
+}
