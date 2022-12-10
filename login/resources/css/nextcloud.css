@@ -62,7 +62,11 @@ fieldset {
 #kc-totp-settings li p:last-of-type {
 	margin-bottom: 10px;
 }
-#kc-totp-supported-apps, #mode-manual-alt {
+#kc-totp-supported-apps,
+#mode-manual,
+#mode-manual-alt,
+#kc-totp-secret-key,
+#kc-totp-settings ul li {
 	font-size: initial;
 	font-weight: initial;
 }
