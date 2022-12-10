@@ -65,6 +65,7 @@ fieldset {
 #kc-totp-supported-apps,
 #mode-manual,
 #mode-manual-alt,
+#mode-barcode,
 #kc-totp-secret-key,
 #kc-totp-settings ul li {
 	font-size: initial;
