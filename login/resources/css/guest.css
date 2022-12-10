@@ -291,7 +291,6 @@ input[type='password'].password-with-toggle, input[type='text'].password-with-to
 }
 .toggle-password {
 	position: absolute;
-	top: 1px;
 	right: 5px;
 	padding: 14px;
 	height: 16px;

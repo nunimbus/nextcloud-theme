@@ -47,16 +47,24 @@ fieldset {
 	margin: auto !important;
 	padding: unset !important;
 }
-#kc-totp-settings li p:first-of-type {
+/*#kc-totp-settings li p:first-of-type {
 	font-size: 20px;
 	font-weight: 700;
 	margin-top: 30px;
+}*/
+#kc-totp-settings li.totp-step {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #fff;
+    list-style-position: inside;
 }
 #kc-totp-settings li p:last-of-type {
 	margin-bottom: 10px;
 }
-::marker {
-	color: transparent;
+#kc-totp-supported-apps, #mode-manual-alt {
+	font-size: initial;
+	font-weight: initial;
 }
 #kc-totp-settings-form input[type='submit'],
 #kc-totp-settings-form input[type='submit'].icon-confirm,
